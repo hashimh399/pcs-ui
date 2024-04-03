@@ -1,0 +1,117 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  margin: 20px auto; /* Center the card */
+  width: 39rem
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.agent-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.agent-item {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.agent-name {
+  font-size: 18px;
+  color: #333;
+}
+
+.agent-score {
+  font-size: 16px;
+  color: #666;
+  margin-right: 10px;
+}
+.agx {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.agent-list {
+  list-style: none;
+  padding: 0;
+  max-height: 200px; /* Adjust based on your preference */
+  overflow-y: auto;
+}
+
+.agent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+/* .agent-name, .agent-score {
+  margin: 0;
+} */
+.agent-list::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+.agent-list::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+.agent-list::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+}
+
+.agent-list::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
+.agentReportlbl{
+  left: 12.9rem;
+  top: 0.7rem;
+  position: relative;
+}
+/* .header-with-dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-range-dropdown {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+} */
+.form-select-sm {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.duration{
+  width: 10rem;
+  margin-right: 3rem;
+}
+.chartlbl{
+  margin-left: 4rem;
+}
+#navbar-logo {
+  width: 50px; /* Adjust based on your logo's size */
+  height: auto;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#navbar-logo:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), /* Outer white glow */
+              0 0 20px rgba(255, 255, 255, 0.4), /* Middle white glow */
+              0 0 30px rgba(255, 255, 255, 0.3); /* Inner white glow */
+}
