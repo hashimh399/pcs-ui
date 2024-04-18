@@ -10,11 +10,11 @@ import {
 } from "recharts";
 import { useWebSocket } from "../utils/websocket";
 
-const ChartCarousel = ({ allData }) => {
+const AgentCarousel = ({ allData }) => {
   const { data } = useWebSocket();
-  const [allTeamData, setAllTeamData] = useState([]);
+  const [allAgentData, setAllAgentData] = useState([]);
   const [dateRange, setDateRange] = useState("allTime");
-  const [supervisorDetails, setSupervisorDetails] = useState([]);
+  const [agentData, setAgentData] = useState([]);
 
   // Function to calculate the score
   const calculateScore = (data) => {
@@ -31,18 +31,34 @@ const ChartCarousel = ({ allData }) => {
   };
 
   useEffect(() => {
-    if (data && data.TeamWiseReport && data.TeamWiseReport.length > 0) {
-      setAllTeamData(data.TeamWiseReport[0]);
+    if (data && data.AgentWiseReport && data.AgentWiseReport.length > 0) {
+      setAllAgentData(data.AgentWiseReport[0]);
     }
   }, [data]);
 
   useEffect(() => {
     if (allData.SupervisorDetails && allData.SupervisorDetails.teamsData) {
-      const supervisorTeams = allData.SupervisorDetails.teamsData;
+      const teamsData = allData.SupervisorDetails.teamsData;
 
-      // Filter allTeamData based on dateRange
-      const filteredAllTeamData = allTeamData.filter((teamData) => {
-        const createdAtDate = new Date(teamData.createdAt);
+      // Extract unique agents from all teams
+      const uniqueAgents = Array.from(
+        new Map(
+          teamsData
+            .flatMap((team) =>
+              team.users.map((user) => ({
+                id: user.ciUserId,
+                name: user.firstName + " " + user.lastName,
+              }))
+            )
+            .map((user) => [user.id, user])
+        ).values()
+      );
+
+      console.log("unique agents are: ", uniqueAgents);
+
+      // Filter allAgentData based on dateRange
+      const filteredAllAgentData = allAgentData.filter((AgentData) => {
+        const createdAtDate = new Date(AgentData.createdAt);
         const today = new Date();
         const sevenDaysAgo = new Date(
           today.getTime() - 7 * 24 * 60 * 60 * 1000
@@ -57,26 +73,27 @@ const ChartCarousel = ({ allData }) => {
         } else if (dateRange === "last7Days") {
           return createdAtDate >= sevenDaysAgo && createdAtDate <= today;
         } else {
-          return true;
+          return true; // Show all data for "allTime"
         }
       });
 
-      const newData = supervisorTeams?.map((team) => {
-        const teamData = filteredAllTeamData.find(
-          (data) => data.teamId === team.id
+      const newData = uniqueAgents.map((agent) => {
+        const AgentData = filteredAllAgentData.find(
+          (data) => data.agentId === agent.id
         );
-        const score = teamData ? calculateScore(teamData) : 0;
+        const score = AgentData ? calculateScore(AgentData) : 0;
         return {
-          name: team.name,
-          score: parseFloat(score),
+          name: agent.name,
+          score: parseFloat(score), // Convert score to a float
         };
       });
 
-      setSupervisorDetails(newData);
+      setAgentData(newData);
     }
-  }, [allData, allTeamData, dateRange]);
+  }, [allData, allAgentData, dateRange]);
 
   useEffect(() => {
+    // Set default date range to "allTime" when component mounts
     setDateRange("allTime");
   }, [data]);
 
@@ -89,7 +106,7 @@ const ChartCarousel = ({ allData }) => {
       <div>
         {/* <button onClick={handleSendMessage}>Refresh </button> */}
         <div className="d-flex justify-content-between align-items-center mb-3">
-          <h4 className="chartlbl">Team Wise Report</h4>
+          <h4 className="chartlbl">Agent Wise Report</h4>
           <select
             className="form-select-sm duration"
             onChange={handleDateRangeChange}
@@ -100,17 +117,17 @@ const ChartCarousel = ({ allData }) => {
             <option value="last7Days">Last 7 Days</option>
           </select>
         </div>
-        <BarChart width={550} height={300} data={supervisorDetails}>
+        <BarChart width={550} height={300} data={agentData}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
           <YAxis type="number" domain={[0, 100]} ticks={[0, 25, 50, 75, 100]} />
           <Tooltip />
           <Legend />
-          <Bar dataKey="score" fill="#8884d8" />
+          <Bar dataKey="score" fill="#02c9bf" />
         </BarChart>
       </div>
     </>
   );
 };
 
-export default ChartCarousel;
+export default AgentCarousel;

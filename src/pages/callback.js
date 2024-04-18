@@ -13,6 +13,7 @@ const OAuthCallback = () => {
     // Define exchangeCodeForToken inside useEffect if it doesn't depend on props or state outside useEffect's scope
     const exchangeCodeForToken = async (code) => {
       try {
+        // eslint-disable-next-line no-unused-vars
         const response = await axios.post('https://webexapis.com/v1/access_token', {
           grant_type: 'authorization_code',
           client_id: clientId,
@@ -21,7 +22,7 @@ const OAuthCallback = () => {
           redirect_uri: redirectUri,
         });
 
-        const { access_token } = response.data;
+        
         // Store the access token in local storage / context / state
         // Redirect user to another part of your application
         navigate('/dashboard'); // Updated to use navigate

@@ -1,19 +1,26 @@
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 
 const WebSocketContext = createContext(null);
 
 export const useWebSocket = () => useContext(WebSocketContext);
 
 export const WebSocketProvider = ({ children }) => {
-  const [webSocket, setWebSocket] = useState(null);
   const [data, setData] = useState({});
-  const [isConnected, setIsConnected] = useState(false); // Track connection status
+  const [isConnected, setIsConnected] = useState(false);
+  const [socket, setSocket] = useState(null);
 
   useEffect(() => {
     const ws = new WebSocket("ws://localhost:8000");
+    setSocket(ws);
 
     ws.onopen = () => {
-      console.log("WebSocket connected");
+      console.log("WebSocket connected ");
       setIsConnected(true); // Update the connection status
     };
 
@@ -32,9 +39,6 @@ export const WebSocketProvider = ({ children }) => {
       setIsConnected(false); // Update the connection status
     };
 
-    // Set the WebSocket object in state after all event listeners are added
-    setWebSocket(ws);
-
     return () => {
       if (ws.readyState === WebSocket.CLOSED) {
         ws.close();
@@ -43,17 +47,13 @@ export const WebSocketProvider = ({ children }) => {
   }, []);
 
   const sendMessage = (message) => {
-    if (webSocket && isConnected && webSocket.readyState === WebSocket.OPEN) {
-      // Check connection status before sending
-      const messageString =
-        typeof message === "string" ? message : JSON.stringify(message);
-      webSocket.send(messageString);
-    } else {
-      console.error("WebSocket is not connected.");
+    if (socket) {
+      console.log("check ", socket, socket.readyState, message);
+      socket.send(JSON.stringify(message));
     }
   };
 
-  const value = { data, sendMessage };
+  const value = { data, sendMessage, isConnected };
 
   return (
     <WebSocketContext.Provider value={value}>
