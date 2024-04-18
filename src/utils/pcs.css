@@ -115,3 +115,38 @@
     /* Outer white glow */ 0 0 20px rgba(255, 255, 255, 0.4),
     /* Middle white glow */ 0 0 30px rgba(255, 255, 255, 0.3); /* Inner white glow */
 }
+.performance-card {
+  background: linear-gradient(to bottom right, #ffffff 0%, #e6e6e6 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.performance-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+  color: #333;
+  text-align: center; /* Centers the text within each paragraph */
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border-top: 1px solid #ccc; /* Adds a subtle border to the top of the body section */
+}
+
+.performance-card h1 {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  margin: 0; /* Removes default margin */
+  text-align: center; /* Centers the header text */
+  border-bottom: 1px solid #ccc; /* Adds a subtle border under the header */
+}
+
+.performance-card p {
+  font-size: 16px;
+  line-height: 1.5; /* Increases line spacing for better readability */
+}
+

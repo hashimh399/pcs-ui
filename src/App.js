@@ -3,7 +3,8 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/dashboard";
-
+import Surveys from "./pages/surveyList";
+import Create from "./pages/createSurvey";
 import Layout from "./pages/Layout";
 import OAuthCallback from "./pages/callback";
 import Navbar from "./components/header";
@@ -30,72 +31,58 @@ function surveyScore(responses) {
 
 function App() {
   //const [data, setData] = useState(null);
+  const [supervisorName, setSupervisorName] = useState("");
+  const [q1, setq1] = useState([]);
+  const [q2, setq2] = useState([]);
+  const [q3, setq3] = useState([]);
 
-  const { sendMessage, data, isConnected } = useWebSocket();
-  const [allData, setAlldata] = useState([]);
+  const { sendMessage, data } = useWebSocket();
 
-  // useEffect(() => {
-  //   // Request SupervisorDetails and AllTimeReport when the component mounts
-  //   if (isConnected) {
-  //     const intervalId = setInterval(() => {
-  //       sendMessage({
-  //         data: { api: "SupervisorDetails" },
-  //       });
-
-  //       sendMessage({
-  //         data: { api: "AllTimeReport" },
-  //       });
-
-  //       sendMessage({
-  //         data: { api: "TeamWiseReport" },
-  //       });
-  //       sendMessage({
-  //         data: { api: "AgentWiseReport" },
-  //       });
-  //       sendMessage({
-  //         data: { api: "LiveSurvey" },
-  //       });
-  //       setAlldata(data);
-  //     }, 10000);
-
-  //     console.log("received data ", allData);
-  //   } else {
-  //     console.log("error fetching supervisor and allTimeReport");
-  //   }
-
-  //   // Optionally, listen for other real-time updates if your server supports it
-  // }, [isConnected, allData]);
-
-  // Access the data directly from the context state
-
-  const getAllDetails = () => {
+  useEffect(() => {
+    // Request SupervisorDetails and AllTimeReport when the component mounts
     sendMessage({
       data: { api: "SupervisorDetails" },
     });
-
     sendMessage({
       data: { api: "AllTimeReport" },
     });
 
-    sendMessage({
-      data: { api: "TeamWiseReport" },
-    });
-    sendMessage({
-      data: { api: "AgentWiseReport" },
-    });
-    sendMessage({
-      data: { api: "LiveSurvey" },
-    });
-    setAlldata(data);
-    console.log("received data ", allData);
-  };
+    // Optionally, listen for other real-time updates if your server supports it
+  }, [sendMessage]);
 
+  // Access the data directly from the context state
+  const supervisorDetails = data.SupervisorDetails;
   const { displayName } = data.SupervisorDetails ?? {};
   console.log("name is", displayName);
   console.log("is connected ", isConnected);
 
   return (
     <>
+      <button
+        onClick={() => {
+          sendMessage({
+            data: { api: "SupervisorDetails" },
+          });
+
+          sendMessage({
+            data: { api: "AllTimeReport" },
+          });
+
+          sendMessage({
+            data: { api: "TeamWiseReport" },
+          });
+          sendMessage({
+            data: { api: "AgentWiseReport" },
+          });
+          sendMessage({
+            data: { api: "LiveSurvey" },
+          });
+          setAlldata(data);
+          console.log("received data ", allData);
+        }}
+      >
+        Refresh
+      </button>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/oauth2/callback" element={<OAuthCallback />} />
@@ -116,15 +103,15 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col">
-            <ChartCarousel allData={data} />
+            <ChartCarousel alldata={data} />
           </div>
           <div className="col">
-            <AgentCarousel allData={data} />
+            <FeedbackCarousel q1={q1} q2={q2} q3={q3} />
           </div>
         </div>
       </div>
 
-      <div className="container  ">
+      <div className="container text-center">
         <div className="row">
           <div className="col">
             <AgentScoresCard className="agentScoreCard" allData={allData} />

@@ -88,8 +88,13 @@ const FeedbackCarousel = ({ allData }) => {
         </div>
 
         <LineChart
+<<<<<<< HEAD
           width={570}
           height={400}
+=======
+          width={550}
+          height={300}
+>>>>>>> 787fcc09382ffc4860fad8e153248c547a60a9de
           data={[
             {
               name: "Q1",
@@ -107,7 +112,11 @@ const FeedbackCarousel = ({ allData }) => {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
+<<<<<<< HEAD
           <YAxis type="number" domain={[0, 100]} ticks={[0, 33, 67, 100]} />
+=======
+          <YAxis type="number" domain={[0, 100]} ticks={[0, 25, 50, 75, 100]} />
+>>>>>>> 787fcc09382ffc4860fad8e153248c547a60a9de
           <Tooltip />
           <Legend />
           <Line
