@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Bar, Doughnut, Line } from 'react-chartjs-2';
+ 
 import 'chart.js/auto';
 
 const Dashboard = () => {
     // State to hold survey data
+    // eslint-disable-next-line no-unused-vars
     const [surveyData, setSurveyData] = useState({
       labels: [], // Assume these are your question or survey categories
       datasets: [] // Data for each chart will go here
