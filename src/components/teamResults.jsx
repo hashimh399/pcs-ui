@@ -108,7 +108,6 @@ const CardComponent = ({ allData }) => {
             <li key={index} className="agent-item">
               <p className="agent-name">{team.name}</p>
 
-<<<<<<< HEAD
               <div className="d-flex flex-column mx-2">
                 <p className="agent-score">Score: {team.score}</p>
                 <a
@@ -119,16 +118,6 @@ const CardComponent = ({ allData }) => {
                   See full report
                 </a>
               </div>
-=======
-              <a
-                className="agentReportlbl"
-                href="#!"
-                onClick={() => handleShowModal(team.details)}
-              >
-                See full report
-              </a>
-              <p className="agent-score">Score: {team.score}</p>
->>>>>>> 787fcc09382ffc4860fad8e153248c547a60a9de
             </li>
           ))}
         </ul>

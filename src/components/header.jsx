@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import "../utils/pcs.css";
 import { TfiReload } from "react-icons/tfi";
 import th from "../utils/th.png";
@@ -14,15 +13,9 @@ export default function Header({ name, button }) {
       }, 1000 * 60);
     }
   }, [isConnected]);
-=======
- 
-import '../utils/pcs.css';
-import th from '../utils/th.png'
->>>>>>> 787fcc09382ffc4860fad8e153248c547a60a9de
 
   return (
     <>
-<<<<<<< HEAD
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
@@ -59,31 +52,6 @@ import th from '../utils/th.png'
                 </a>
               </li>
               {/* <li className="nav-item">
-=======
-    
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-  <div className="container-fluid">
-    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-  <a className="navbar-brand" href="#">
-      <img src={th} alt="Consilium PCS Logo" id="navbar-logo" />
-    </a>
-    {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-    <a className="navbar-brand" href="#">Consilium PCS</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarText">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        <li className="nav-item">
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
-        </li>
-        <li className="nav-item">
-          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          <a className="nav-link" href="#">Results</a>
-        </li>
-        {/* <li className="nav-item">
->>>>>>> 787fcc09382ffc4860fad8e153248c547a60a9de
           <a className="nav-link" href="#">Pricing</a>
         </li> */}
             </ul>
