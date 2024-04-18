@@ -1,0 +1,1381 @@
+{
+  "displayName": "consiliumagent2@gmail.com",
+  "email": "consiliumagent2@gmail.com",
+  "teamsData": [
+    {
+      "id": "32b52634-c969-4bad-ad5d-5b2fb8594980",
+      "name": "Team_UniDashboard_2",
+      "users": [
+        {
+          "id": "198612be-d863-4915-8fde-4601fb0a2145",
+          "firstName": "sukhadeo",
+          "lastName": "prasad",
+          "email": "sukhadeo.p@gmail.com",
+          "workPhone": "",
+          "mobile": "9717157755",
+          "ciUserId": "c10c1662-968a-4e9e-9598-7d98719b8094",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "fe41d731-5064-4b4c-be9f-2ae2cc46527e",
+          "agentProfileId": "92849b5d-5e4e-43aa-b2d3-5bfba4fd903a",
+          "multimediaProfileId": "90aedd6c-cd6c-46cf-8435-558d7acd82fb",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/198612be-d863-4915-8fde-4601fb0a2145"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/92849b5d-5e4e-43aa-b2d3-5bfba4fd903a"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/fe41d731-5064-4b4c-be9f-2ae2cc46527e"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1685438839000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "de73f0bb-36e4-45cb-afef-bbc15b75ea4e",
+          "firstName": "Wajid",
+          "lastName": "Agent",
+          "email": "wajikadirur@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "dc0e0f70-f8cb-40a1-8486-7dcae7cdad8c",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/de73f0bb-36e4-45cb-afef-bbc15b75ea4e"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1702466988000,
+          "lastUpdatedTime": 1709889045000
+        },
+        {
+          "id": "8ef77f0c-d310-454d-9355-218c5b468278",
+          "firstName": "Consilium",
+          "lastName": "Agent 2",
+          "email": "consiliumagent2@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "7a6217de-f487-4a71-b830-3a4e6bd4df08",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8ef77f0c-d310-454d-9355-218c5b468278"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1651739382000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "2aa7153e-162d-44c2-aa33-88462b997962",
+          "firstName": "Samir",
+          "lastName": "Kumar",
+          "email": "samirkumardbg92@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "98a7d6d2-85d9-4496-9fb4-6dee93b8db0c",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10",
+            "36941723-3319-4949-bb9e-c6da9fd6b910"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "a7c0d651-5433-4a18-96bb-4137edc28dc3",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "9112",
+          "externalIdentifier": "0",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/2aa7153e-162d-44c2-aa33-88462b997962"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/a7c0d651-5433-4a18-96bb-4137edc28dc3"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1700806360000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "ce6c22b5-8dfc-4813-bd39-e82f6c3905af",
+          "firstName": "Hashim Ali",
+          "lastName": "Mir",
+          "email": "Hashimh399@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "d2a9dafb-e4d6-46be-bee0-94fb9f0f2c10",
+          "userProfileId": "0020955d-dd3f-4e6e-b64d-64132faa7a1b",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "1a0586d7-edb1-4bba-9270-42a1e8cae9f6",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "a630f306-590b-4e5a-95f1-1a2caa0c31ae",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10",
+            "8109f6af-be7f-46b4-8452-2eb2a3fec7f8"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/ce6c22b5-8dfc-4813-bd39-e82f6c3905af"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/0020955d-dd3f-4e6e-b64d-64132faa7a1b"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1685432171000,
+          "lastUpdatedTime": 1710846511000
+        },
+        {
+          "id": "82d375c8-829e-4025-9e7a-5fe6e6fa0826",
+          "firstName": "Consilium",
+          "lastName": "Dev",
+          "email": "dev.team@consiliuminc.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "ca29912b-b251-4862-a2e2-196ac8233e88",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/82d375c8-829e-4025-9e7a-5fe6e6fa0826"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1650612377000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "14260730-8309-4cc1-a1a7-f6fe15ab1a3c",
+          "firstName": "Consilium",
+          "lastName": "Supervisor 1",
+          "email": "consiliumsup1@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "8ca48ea1-d3a3-4b3e-a608-eca7fe19464f",
+          "userProfileId": "b1148a0d-4c75-44fc-b7be-e34696748331",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "90aedd6c-cd6c-46cf-8435-558d7acd82fb",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/14260730-8309-4cc1-a1a7-f6fe15ab1a3c"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/b1148a0d-4c75-44fc-b7be-e34696748331"
+            }
+          ],
+          "createdTime": 1651739363000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "aa8de42a-4eaf-4ae8-a35c-ead6f75f51e2",
+          "firstName": "Agent",
+          "lastName": "Social",
+          "email": "social@consiliuminc.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "fb027983-c93b-40f4-b7c8-ca72bfc427c8",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "a6ed43a9-8791-417b-a5d4-3192107782b1",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "b5394074-641b-4432-9100-1e71c9348b64"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/aa8de42a-4eaf-4ae8-a35c-ead6f75f51e2"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1650962285000,
+          "lastUpdatedTime": 1709889045000
+        }
+      ]
+    },
+    {
+      "id": "34033178-5676-40ba-95ce-647fbb7fa659",
+      "name": "LocalHostTesting- Headless",
+      "users": [
+        {
+          "id": "9d8435ba-db53-4feb-9b85-aaa2f5579881",
+          "firstName": "Yogendra",
+          "lastName": "Gupta",
+          "email": "yogendra.consiliuminc@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "c0f97644-9c65-42ca-8fd3-099c4dac0883",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "efb3637d-af75-4753-abea-6d2819ef5c45"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/9d8435ba-db53-4feb-9b85-aaa2f5579881"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1706003842000,
+          "lastUpdatedTime": 1709889045000
+        },
+        {
+          "id": "2327d624-21af-4cf9-bc14-128433efabc0",
+          "firstName": "Awadeep",
+          "lastName": "Chaturvedi",
+          "email": "awadeepmail@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "6c37ea4a-386f-49df-8a49-a9c2a57363bd",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "f35c5a21-a925-4f3c-8fba-c5aa09ae10ef",
+            "efb3637d-af75-4753-abea-6d2819ef5c45",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/2327d624-21af-4cf9-bc14-128433efabc0"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1702296704000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "4704e38d-b639-4eff-aa7e-363fb962484c",
+          "firstName": "Consilium",
+          "lastName": "Agent 1",
+          "email": "consiliumagent1@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "8a7f16d6-24d1-4096-b7dd-f6e386791b6b",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "f35c5a21-a925-4f3c-8fba-c5aa09ae10ef"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "90aedd6c-cd6c-46cf-8435-558d7acd82fb",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/4704e38d-b639-4eff-aa7e-363fb962484c"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1651739335000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "8ef77f0c-d310-454d-9355-218c5b468278",
+          "firstName": "Consilium",
+          "lastName": "Agent 2",
+          "email": "consiliumagent2@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "7a6217de-f487-4a71-b830-3a4e6bd4df08",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8ef77f0c-d310-454d-9355-218c5b468278"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1651739382000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "ce6c22b5-8dfc-4813-bd39-e82f6c3905af",
+          "firstName": "Hashim Ali",
+          "lastName": "Mir",
+          "email": "Hashimh399@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "d2a9dafb-e4d6-46be-bee0-94fb9f0f2c10",
+          "userProfileId": "0020955d-dd3f-4e6e-b64d-64132faa7a1b",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "1a0586d7-edb1-4bba-9270-42a1e8cae9f6",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "a630f306-590b-4e5a-95f1-1a2caa0c31ae",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10",
+            "8109f6af-be7f-46b4-8452-2eb2a3fec7f8"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/ce6c22b5-8dfc-4813-bd39-e82f6c3905af"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/0020955d-dd3f-4e6e-b64d-64132faa7a1b"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1685432171000,
+          "lastUpdatedTime": 1710846511000
+        },
+        {
+          "id": "65f582af-1141-4c79-9cd2-184f2c10f504",
+          "firstName": "Consilium",
+          "lastName": "Master",
+          "email": "masterconsilium271@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "819042ac-f5dc-4c08-84d8-fd44176e34b6",
+          "userProfileId": "b1148a0d-4c75-44fc-b7be-e34696748331",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/65f582af-1141-4c79-9cd2-184f2c10f504"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/b1148a0d-4c75-44fc-b7be-e34696748331"
+            }
+          ],
+          "createdTime": 1706004341000,
+          "lastUpdatedTime": 1709889044000
+        }
+      ]
+    },
+    {
+      "id": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+      "name": "SupervisorWxCC",
+      "users": [
+        {
+          "id": "8ef77f0c-d310-454d-9355-218c5b468278",
+          "firstName": "Consilium",
+          "lastName": "Agent 2",
+          "email": "consiliumagent2@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "7a6217de-f487-4a71-b830-3a4e6bd4df08",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8ef77f0c-d310-454d-9355-218c5b468278"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1651739382000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "65f582af-1141-4c79-9cd2-184f2c10f504",
+          "firstName": "Consilium",
+          "lastName": "Master",
+          "email": "masterconsilium271@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "819042ac-f5dc-4c08-84d8-fd44176e34b6",
+          "userProfileId": "b1148a0d-4c75-44fc-b7be-e34696748331",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/65f582af-1141-4c79-9cd2-184f2c10f504"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/b1148a0d-4c75-44fc-b7be-e34696748331"
+            }
+          ],
+          "createdTime": 1706004341000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "8732ae5b-d4f6-429e-b100-9d19552d84b3",
+          "firstName": "nkkhan000777",
+          "lastName": "nkkhan000777",
+          "email": "nkkhan000777@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "3b87e673-696d-44cd-b1dd-c7072784d476",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8732ae5b-d4f6-429e-b100-9d19552d84b3"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1677762377000,
+          "lastUpdatedTime": 1709889044000
+        }
+      ]
+    },
+    {
+      "id": "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+      "name": "Team_UniDashboard_1",
+      "users": [
+        {
+          "id": "198612be-d863-4915-8fde-4601fb0a2145",
+          "firstName": "sukhadeo",
+          "lastName": "prasad",
+          "email": "sukhadeo.p@gmail.com",
+          "workPhone": "",
+          "mobile": "9717157755",
+          "ciUserId": "c10c1662-968a-4e9e-9598-7d98719b8094",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "fe41d731-5064-4b4c-be9f-2ae2cc46527e",
+          "agentProfileId": "92849b5d-5e4e-43aa-b2d3-5bfba4fd903a",
+          "multimediaProfileId": "90aedd6c-cd6c-46cf-8435-558d7acd82fb",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/198612be-d863-4915-8fde-4601fb0a2145"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/92849b5d-5e4e-43aa-b2d3-5bfba4fd903a"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/fe41d731-5064-4b4c-be9f-2ae2cc46527e"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1685438839000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "de73f0bb-36e4-45cb-afef-bbc15b75ea4e",
+          "firstName": "Wajid",
+          "lastName": "Agent",
+          "email": "wajikadirur@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "dc0e0f70-f8cb-40a1-8486-7dcae7cdad8c",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/de73f0bb-36e4-45cb-afef-bbc15b75ea4e"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1702466988000,
+          "lastUpdatedTime": 1709889045000
+        },
+        {
+          "id": "4f08b925-e615-4de2-a563-28278ccf1ece",
+          "firstName": "Venkat",
+          "lastName": "Ramanan",
+          "email": "venkatramanan096@gmail.com",
+          "ciUserId": "53e6b0b4-d647-4f75-a9cc-536f6cdfb332",
+          "userProfileId": "b1148a0d-4c75-44fc-b7be-e34696748331",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "0",
+          "externalIdentifier": "0",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/4f08b925-e615-4de2-a563-28278ccf1ece"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/b1148a0d-4c75-44fc-b7be-e34696748331"
+            }
+          ],
+          "createdTime": 1701174203000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "8ef77f0c-d310-454d-9355-218c5b468278",
+          "firstName": "Consilium",
+          "lastName": "Agent 2",
+          "email": "consiliumagent2@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "7a6217de-f487-4a71-b830-3a4e6bd4df08",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8ef77f0c-d310-454d-9355-218c5b468278"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1651739382000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "2aa7153e-162d-44c2-aa33-88462b997962",
+          "firstName": "Samir",
+          "lastName": "Kumar",
+          "email": "samirkumardbg92@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "98a7d6d2-85d9-4496-9fb4-6dee93b8db0c",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10",
+            "36941723-3319-4949-bb9e-c6da9fd6b910"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "a7c0d651-5433-4a18-96bb-4137edc28dc3",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "9112",
+          "externalIdentifier": "0",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/2aa7153e-162d-44c2-aa33-88462b997962"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/a7c0d651-5433-4a18-96bb-4137edc28dc3"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1700806360000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "ce6c22b5-8dfc-4813-bd39-e82f6c3905af",
+          "firstName": "Hashim Ali",
+          "lastName": "Mir",
+          "email": "Hashimh399@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "d2a9dafb-e4d6-46be-bee0-94fb9f0f2c10",
+          "userProfileId": "0020955d-dd3f-4e6e-b64d-64132faa7a1b",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "1a0586d7-edb1-4bba-9270-42a1e8cae9f6",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "a630f306-590b-4e5a-95f1-1a2caa0c31ae",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10",
+            "8109f6af-be7f-46b4-8452-2eb2a3fec7f8"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/ce6c22b5-8dfc-4813-bd39-e82f6c3905af"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/0020955d-dd3f-4e6e-b64d-64132faa7a1b"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1685432171000,
+          "lastUpdatedTime": 1710846511000
+        },
+        {
+          "id": "8732ae5b-d4f6-429e-b100-9d19552d84b3",
+          "firstName": "nkkhan000777",
+          "lastName": "nkkhan000777",
+          "email": "nkkhan000777@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "3b87e673-696d-44cd-b1dd-c7072784d476",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "e66fdd5c-fc97-433a-a399-4b5398d39c10"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8732ae5b-d4f6-429e-b100-9d19552d84b3"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1677762377000,
+          "lastUpdatedTime": 1709889044000
+        },
+        {
+          "id": "14260730-8309-4cc1-a1a7-f6fe15ab1a3c",
+          "firstName": "Consilium",
+          "lastName": "Supervisor 1",
+          "email": "consiliumsup1@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "8ca48ea1-d3a3-4b3e-a608-eca7fe19464f",
+          "userProfileId": "b1148a0d-4c75-44fc-b7be-e34696748331",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "26010705-4ba4-42ee-8475-09b5d8cc26cb",
+          "multimediaProfileId": "90aedd6c-cd6c-46cf-8435-558d7acd82fb",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/14260730-8309-4cc1-a1a7-f6fe15ab1a3c"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/26010705-4ba4-42ee-8475-09b5d8cc26cb"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/b1148a0d-4c75-44fc-b7be-e34696748331"
+            }
+          ],
+          "createdTime": 1651739363000,
+          "lastUpdatedTime": 1709889043000
+        },
+        {
+          "id": "aa8de42a-4eaf-4ae8-a35c-ead6f75f51e2",
+          "firstName": "Agent",
+          "lastName": "Social",
+          "email": "social@consiliuminc.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "fb027983-c93b-40f4-b7c8-ca72bfc427c8",
+          "userProfileId": "33a872d5-1b8c-4980-b769-4bd9c1eb1058",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "a6ed43a9-8791-417b-a5d4-3192107782b1",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980",
+            "b5394074-641b-4432-9100-1e71c9348b64"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/aa8de42a-4eaf-4ae8-a35c-ead6f75f51e2"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/33a872d5-1b8c-4980-b769-4bd9c1eb1058"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            }
+          ],
+          "createdTime": 1650962285000,
+          "lastUpdatedTime": 1709889045000
+        }
+      ]
+    },
+    {
+      "id": "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+      "name": "AgentBasedTeam_Test",
+      "users": [
+        {
+          "id": "8ef77f0c-d310-454d-9355-218c5b468278",
+          "firstName": "Consilium",
+          "lastName": "Agent 2",
+          "email": "consiliumagent2@gmail.com",
+          "workPhone": "",
+          "mobile": "",
+          "ciUserId": "7a6217de-f487-4a71-b830-3a4e6bd4df08",
+          "userProfileId": "14663d31-8de3-4b87-a530-db8db1a9f9e6",
+          "contactCenterEnabled": true,
+          "siteId": "64afc890-6a23-410d-acfb-700c49d505c7",
+          "teamIds": [
+            "f6574af4-22e8-4a28-b3b9-60097a7bac6b",
+            "41ed7862-18d6-4b84-9a7c-f227287e80af",
+            "c1bfef8f-7976-4201-8421-a20ac96c9dc3",
+            "34033178-5676-40ba-95ce-647fbb7fa659",
+            "32b52634-c969-4bad-ad5d-5b2fb8594980"
+          ],
+          "skillProfileId": "8b5e1978-48ea-4c35-b45d-c8b8a80db923",
+          "agentProfileId": "8c46076a-3e8a-42d4-9dd7-6a410ead7498",
+          "multimediaProfileId": "3423de29-49b6-4234-80ae-a944da0e19a8",
+          "deafultDialledNumber": "",
+          "externalIdentifier": "",
+          "active": true,
+          "imiUserCreated": true,
+          "preferredSupervisorTeamId": "41ed7862-18d6-4b84-9a7c-f227287e80af",
+          "systemDefault": false,
+          "links": [
+            {
+              "rel": "self",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user/8ef77f0c-d310-454d-9355-218c5b468278"
+            },
+            {
+              "rel": "agent_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/agent-profile/8c46076a-3e8a-42d4-9dd7-6a410ead7498"
+            },
+            {
+              "rel": "skill_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/skill-profile/8b5e1978-48ea-4c35-b45d-c8b8a80db923"
+            },
+            {
+              "rel": "organization",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b"
+            },
+            {
+              "rel": "user_profile",
+              "href": "/organization/69fc3aba-280a-4f8e-b449-2c198d78569b/user-profile/14663d31-8de3-4b87-a530-db8db1a9f9e6"
+            }
+          ],
+          "createdTime": 1651739382000,
+          "lastUpdatedTime": 1709889044000
+        }
+      ]
+    }
+  ]
+}
