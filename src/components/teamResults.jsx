@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import "../utils/pcs.css";
 import { useWebSocket } from "../utils/websocket";
+import ExcelDownloadButton from "./ExcelSheetDownload";
 
 const CardComponent = ({ allData }) => {
   const { data } = useWebSocket();
@@ -9,6 +10,7 @@ const CardComponent = ({ allData }) => {
   const [dateRange, setDateRange] = useState("allTime");
   const [supervisorDetails, setSupervisorDetails] = useState([]);
   const [showModal, setShowModal] = useState(false);
+
   const [currentTeamsDetails, setcurrentTeamsDetails] = useState(null);
 
   // Function to calculate the score
@@ -93,6 +95,10 @@ const CardComponent = ({ allData }) => {
       <div className="container">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h4>Team Performance</h4>
+          <ExcelDownloadButton
+            data={supervisorDetails}
+            fileName={dateRange + " agentReport"}
+          />
           <select
             className="form-select-sm"
             onChange={handleDateRangeChange}
@@ -110,13 +116,13 @@ const CardComponent = ({ allData }) => {
 
               <div className="d-flex flex-column mx-2">
                 <p className="agent-score">Score: {team.score}</p>
-                <a
+                <Button
+                  variant="success"
                   className="agentReportlbl"
-                  href="#!"
                   onClick={() => handleShowModal(team.details)}
                 >
                   See full report
-                </a>
+                </Button>
               </div>
             </li>
           ))}
@@ -169,7 +175,6 @@ const CardComponent = ({ allData }) => {
           )}
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="primary">Download csv file</Button>
           <Button variant="secondary" onClick={handleCloseModal}>
             Close
           </Button>
@@ -180,3 +185,5 @@ const CardComponent = ({ allData }) => {
 };
 
 export default CardComponent;
+
+// *****************************************************************************************************

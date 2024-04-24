@@ -115,3 +115,63 @@
     /* Outer white glow */ 0 0 20px rgba(255, 255, 255, 0.4),
     /* Middle white glow */ 0 0 30px rgba(255, 255, 255, 0.3); /* Inner white glow */
 }
+
+.performance-card {
+  background: linear-gradient(to bottom right, #ffffff 0%, #e6e6e6 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.performance-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+  color: #333;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ccc;
+}
+
+.performance-card h1 {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.performance-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.agent-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.agent-table th,
+.agent-table td {
+  padding: 8px;
+  border: 1px solid #dddddd;
+}
+
+.even-row {
+  background-color: #f2f2f2;
+}
+
+.odd-row {
+  background-color: #ffffff;
+}
+
+.tableDiv {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}

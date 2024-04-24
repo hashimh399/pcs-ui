@@ -6,13 +6,13 @@ import { useEffect } from "react";
 
 export default function Header({ name, button }) {
   const { isConnected } = useWebSocket();
-  useEffect(() => {
-    if (isConnected) {
-      setInterval(() => {
-        button();
-      }, 1000 * 60);
-    }
-  }, [isConnected]);
+  // useEffect(() => {
+  //   if (isConnected) {
+  //     setInterval(() => {
+  //       button();
+  //     }, 1000 * 60);
+  //   }
+  // }, [isConnected]);
 
   return (
     <>

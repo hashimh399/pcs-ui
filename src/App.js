@@ -13,6 +13,7 @@ import ChartCarousel from "./components/teamChart";
 import AgentCarousel from "./components/agentChart";
 import FeedbackCarousel from "./components/feedbackChart";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PerformanceMeter from "./components/liveMeter";
 import { useWebSocket } from "./utils/websocket";
 
 // eslint-disable-next-line no-unused-vars
@@ -107,14 +108,6 @@ function App() {
 
       <div className="container">
         <div className="row">
-          <div className="col"></div>
-
-          <FeedbackCarousel allData={allData} />
-        </div>
-      </div>
-
-      <div className="container">
-        <div className="row">
           <div className="col">
             <ChartCarousel allData={data} />
           </div>
@@ -123,14 +116,23 @@ function App() {
           </div>
         </div>
       </div>
-
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <FeedbackCarousel allData={data} />
+          </div>
+          <div className="col">
+            <PerformanceMeter />{" "}
+          </div>
+        </div>
+      </div>
       <div className="container  ">
         <div className="row">
           <div className="col">
-            <AgentScoresCard className="agentScoreCard" allData={allData} />
+            <AgentScoresCard className="agentScoreCard" allData={data} />
           </div>
           <div className="col">
-            <TeamScoresCard allData={allData} />
+            <TeamScoresCard allData={data} />
           </div>
         </div>
       </div>
