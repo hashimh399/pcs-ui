@@ -8,6 +8,7 @@ import ExcelDownloadButton from "./ExcelSheetDownload";
 import DownloadButton from "./jsonDataDownload";
 
 const CardComponent = ({ allData }) => {
+  console.log("ALL DATA IS ", allData);
   const [showModal, setShowModal] = useState(false);
   const [currentLiveSurvey, setCurrentLiveSurvey] = useState();
 
@@ -345,12 +346,6 @@ const CardComponent = ({ allData }) => {
           )}
         </Modal.Body>
         <Modal.Footer>
-          {/* <DownloadButton
-            data={agentWiseExcel}
-            fileName="agentwise"
-          ></DownloadButton> */}
-          {/* <ExcelDownloadButton data={agentData} fileName="example" /> */}
-
           <Button variant="secondary" onClick={handleCloseModal}>
             Close
           </Button>

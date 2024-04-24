@@ -35,37 +35,35 @@ function App() {
   const { sendMessage, data, isConnected } = useWebSocket();
   const [allData, setAlldata] = useState([]);
 
-  // useEffect(() => {
-  //   // Request SupervisorDetails and AllTimeReport when the component mounts
-  //   if (isConnected) {
-  //     const intervalId = setInterval(() => {
-  //       sendMessage({
-  //         data: { api: "SupervisorDetails" },
-  //       });
+  useEffect(() => {
+    // Request SupervisorDetails and AllTimeReport when the component mounts
+    if (isConnected) {
+      sendMessage({
+        data: { api: "SupervisorDetails" },
+      });
 
-  //       sendMessage({
-  //         data: { api: "AllTimeReport" },
-  //       });
+      sendMessage({
+        data: { api: "AllTimeReport" },
+      });
 
-  //       sendMessage({
-  //         data: { api: "TeamWiseReport" },
-  //       });
-  //       sendMessage({
-  //         data: { api: "AgentWiseReport" },
-  //       });
-  //       sendMessage({
-  //         data: { api: "LiveSurvey" },
-  //       });
-  //       setAlldata(data);
-  //     }, 10000);
+      sendMessage({
+        data: { api: "TeamWiseReport" },
+      });
+      sendMessage({
+        data: { api: "AgentWiseReport" },
+      });
+      sendMessage({
+        data: { api: "LiveSurvey" },
+      });
+      setAlldata(data);
 
-  //     console.log("received data ", allData);
-  //   } else {
-  //     console.log("error fetching supervisor and allTimeReport");
-  //   }
+      console.log("received data ", allData);
+    } else {
+      console.log("error fetching supervisor and allTimeReport");
+    }
 
-  //   // Optionally, listen for other real-time updates if your server supports it
-  // }, [isConnected, allData]);
+    // Optionally, listen for other real-time updates if your server supports it
+  }, [isConnected]);
 
   // Access the data directly from the context state
 
