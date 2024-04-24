@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button } from "react-bootstrap";
 import "../utils/pcs.css";
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip } from "react-tooltip";
 
 import ExcelDownloadButton from "./ExcelSheetDownload";
 import DownloadButton from "./jsonDataDownload";
@@ -192,6 +194,7 @@ const CardComponent = ({ allData }) => {
   return (
     <div className="card agx">
       {/* <button onClick={handleSendMessage}>Refresh</button> */}
+
       <div className="container">
         <div className="d-flex justify-content-between align-items-center mb-3">
           <h4>Agent Performance</h4>
@@ -240,6 +243,69 @@ const CardComponent = ({ allData }) => {
           {currentAgentDetails ? (
             <div>
               <p>Agent Name: {currentAgentDetails?.agentName}</p>
+              <div className=" d-flex justify-center justify-content-around  ">
+                <a
+                  href="#!"
+                  data-tooltip-id="Q1"
+                  data-tooltip-content={
+                    currentAgentDetails?.Question1_No +
+                      currentAgentDetails?.Question1_Yes >
+                    0
+                      ? (
+                          (currentAgentDetails?.Question1_Yes /
+                            (currentAgentDetails?.Question1_Yes +
+                              currentAgentDetails?.Question1_No)) *
+                          100
+                        ).toFixed(2)
+                      : 0
+                  }
+                >
+                  <Button variant="info">Q1 Score</Button>
+                </a>
+                <Tooltip id="Q1"></Tooltip>
+
+                {/* button 2 */}
+                <a
+                  href="#!"
+                  data-tooltip-id="Q2"
+                  data-tooltip-content={
+                    currentAgentDetails?.Question2_No +
+                      currentAgentDetails?.Question2_Yes >
+                    0
+                      ? (
+                          (currentAgentDetails?.Question2_Yes /
+                            (currentAgentDetails?.Question2_Yes +
+                              currentAgentDetails?.Question2_No)) *
+                          100
+                        ).toFixed(2)
+                      : 0
+                  }
+                >
+                  <Button variant="info">Q2 Score</Button>
+                </a>
+                <Tooltip id="Q2"></Tooltip>
+
+                {/* button 3 for Q3 score */}
+                <a
+                  href="#!"
+                  data-tooltip-id="Q3"
+                  data-tooltip-content={
+                    currentAgentDetails?.Question3_No +
+                      currentAgentDetails?.Question3_Yes >
+                    0
+                      ? (
+                          (currentAgentDetails?.Question3_Yes /
+                            (currentAgentDetails?.Question3_Yes +
+                              currentAgentDetails?.Question3_No)) *
+                          100
+                        ).toFixed(2)
+                      : 0
+                  }
+                >
+                  <Button variant="info">Q3 Score</Button>
+                </a>
+                <Tooltip id="Q3"></Tooltip>
+              </div>
               <p>
                 Survey Response:{" "}
                 {currentAgentDetails?.Question1_No +
@@ -273,46 +339,6 @@ const CardComponent = ({ allData }) => {
                   </tbody>
                 </table>
               </div>
-              <p>Agent score question Wise</p>
-              <p>
-                Q1 Score:{" "}
-                {currentAgentDetails?.Question1_No +
-                  currentAgentDetails?.Question1_Yes >
-                0
-                  ? (
-                      (currentAgentDetails?.Question1_Yes /
-                        (currentAgentDetails?.Question1_Yes +
-                          currentAgentDetails?.Question1_No)) *
-                      100
-                    ).toFixed(2)
-                  : 0}
-              </p>
-              <p>
-                Q2 Score:{" "}
-                {currentAgentDetails?.Question1_No +
-                  currentAgentDetails?.Question1_Yes >
-                0
-                  ? (
-                      (currentAgentDetails?.Question2_Yes /
-                        (currentAgentDetails?.Question2_Yes +
-                          currentAgentDetails?.Question2_No)) *
-                      100
-                    ).toFixed(2)
-                  : 0}
-              </p>
-              <p>
-                Q3 Score:{" "}
-                {currentAgentDetails?.Question1_No +
-                  currentAgentDetails?.Question1_Yes >
-                0
-                  ? (
-                      (currentAgentDetails?.Question3_Yes /
-                        (currentAgentDetails?.Question3_Yes +
-                          currentAgentDetails?.Question3_No)) *
-                      100
-                    ).toFixed(2)
-                  : 0}
-              </p>
             </div>
           ) : (
             <p>No data found</p>
